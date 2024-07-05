@@ -10,7 +10,7 @@ const SplineScene = () => {
           scene="https://prod.spline.design/x1BMP92uUEnuDhBH/scene.splinecode" 
         />
       </div>
-      <div class="formatted-text">
+      <div className="formatted-text">
         <p>
         O impacto da tecnologia no entretenimento é significativo, oferecendo uma ampla variedade de opções para diversão e lazer. Streaming de filmes e músicas, jogos eletrônicos, e mídias sociais são apenas algumas das maneiras pelas quais a tecnologia enriquece nossas vidas, proporcionando entretenimento acessível e personalizado.
         </p>
@@ -22,7 +22,7 @@ const SplineScene = () => {
         <p>
             Em suma, a tecnologia é uma força motriz essencial em nossas vidas, facilitando comunicação, educação, saúde, trabalho, e entretenimento. Sua influência positiva é inegável, oferecendo soluções inovadoras para problemas complexos e melhorando a qualidade de vida de milhões de pessoas. No entanto, é crucial abordar os desafios que acompanham o progresso tecnológico para garantir que seus benefícios sejam plenamente aproveitados de maneira sustentável e responsável.
         </p>
-        </div>
+      </div>
     </main>
   );
 }
