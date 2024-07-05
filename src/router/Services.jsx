@@ -22,7 +22,6 @@ const Services = () => {
         <p>Oferecemos as melhores soluções em tecnologia.</p>
       </div>
       <div className="services-content">
-        {/* Conteúdo das seções */}
         <div className="section section-red">
           <div className="section-text">
             <h2>INFRAESTRUTURA</h2>
