@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap'); 
+
+.hero-1 {
+  width: 100%;
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(8, 7, 51, 0.7)),
+    url('../../assets/Hero.png');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  font-family: 'Roboto', sans-serif; 
+}
+
+.hero-text {
+  text-align: left; 
+  max-width: 800px;
+  padding: 0 20px;
+}
+
+.hero-text h1 {
+  font-size: 48px; 
+  font-weight: 700; 
+  color: black;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.596); 
+  margin-bottom: 20px; 
+}
+
+.hero-text p {
+  max-width: 700px;
+  margin: 0 0 20px 0; 
+  line-height: 1.6; 
+  font-size: 18px; 
+  color: black;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.685); 
+  padding: 10px 20px;
+  background: rgba(255, 255, 255, 0.8); 
+  border-radius: 8px;
+}
+
+.btn-1 {
+  background-color: #cf2525;
+  color: white;
+  border: none;
+  padding: 12px 24px; 
+  font-size: 18px; 
+  border-radius: 8px; 
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-1:hover {
+  background-color: #a81b1b; 
+  color: #fff; 
+  transform: scale(1.05);
+}
+
+span{
+    color: #cf2525;
+}
+
+@media screen and (max-width: 768px) {
+  .hero-text h1 {
+    font-size: 36px; 
+  }
+
+  .hero-text p {
+    max-width: 100%;
+    font-size: 16px; 
+  }
+
+  .btn-1 {
+    padding: 10px 20px; 
+    font-size: 16px; 
+  }
+}

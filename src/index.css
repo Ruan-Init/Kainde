@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quantico", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.container {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+
+@media (max-width: 1200px) {
+  .container {
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+}
+
+@media (max-width: 400px) {
+  .container {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}
