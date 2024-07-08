@@ -2,13 +2,13 @@ import React from 'react';
 import Navbar from '../components/Navbar/Navbar';
 import Footer from '../components/Footer/Footer';
 import './Services.css';
-import Banner from './assets/banner-service.png';
-import Infraestrutura from './assets/infraestrutura.png'
-import Devops from './assets/devops.png'
-import Cloud from './assets/cloud.png'
-import Software from './assets/software.png'
-import Suporte from './assets/suporte.png'
-import Cabeamento from './assets/cabeamento.png'
+import Banner from '../assets/banner-service.png';
+import Infraestrutura from '../assets/infraestrutura.png'
+import Devops from '../assets/devops.png'
+import Cloud from '../assets/cloud.png'
+import Software from '../assets/software.png'
+import Suporte from '../assets/suporte.png'
+import Cabeamento from '../assets/cabeamento.png'
 
 const Services = () => {
   return (
