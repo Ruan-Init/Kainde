@@ -10,6 +10,7 @@ import About from "./router/About";
 import Navbar from "./components/Navbar/Navbar";
 import Services from "./router/Services";
 import Contact from "./router/Contact";
+import Blog from "./router/Blog"
 
 const router = createBrowserRouter([
   
@@ -22,16 +23,20 @@ const router = createBrowserRouter([
     element: <Navbar/>,
   },
   {
-    path: "/About",
+    path: "/Sobre",
     element: <About/>
   },
   {
-    path: "/Services",
+    path: "/Serviços",
     element: <Services/>
   },
   {
-    path: "/Contact",
+    path: "/Contato",
     element: <Contact/>
+  },
+  {
+    path: "/Blog",
+    element: <Blog/>
   },
   
 ]);

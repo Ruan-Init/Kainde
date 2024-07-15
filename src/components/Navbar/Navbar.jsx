@@ -33,9 +33,10 @@ const Navbar = () => {
       </button>
       <ul className={menuClasses}>
         <li><button className='btn'><Link to="/"><strong>INÍCIO</strong></Link></button></li>
-        <li><button className='btn'><Link to="/Services"><strong>SERVIÇOS</strong></Link></button></li>
-        <li><button className='btn'><Link to="/contact"><strong>CONTATO</strong></Link></button></li>
-        <li><button className='btn'><Link to="/About"><strong>SOBRE NÓS</strong></Link></button></li>
+        <li><button className='btn'><Link to="/Serviços"><strong>SERVIÇOS</strong></Link></button></li>
+        <li><button className='btn'><Link to="/Contato"><strong>CONTATO</strong></Link></button></li>
+        <li><button className='btn'><Link to="/Sobre"><strong>SOBRE NÓS</strong></Link></button></li>
+        <li><button className='btn'><Link to="/Blog"><strong> NOSSO BLOG</strong></Link></button></li>
       </ul>    
     </nav>
   );
