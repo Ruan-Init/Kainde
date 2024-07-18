@@ -13,7 +13,7 @@ const Blog = () => {
       
       <div className='banner'>
         <div>
-          <h1><strong>Bem-vindo</strong></h1>
+          <h1><strong><Bem-vindo></Bem-vindo></strong></h1>
         </div>
       </div>
       
